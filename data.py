@@ -25,6 +25,6 @@ class MyDataset(Dataset):
 
 
 if __name__ == '__main__':
-    data = MyDataset('')
+    data = MyDataset('C:\projects\qingzhou_cv\unet\datasets')
     print(data[0][0].shape)
     print(data[0][1].shape)
